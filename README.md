@@ -4,7 +4,7 @@ Various single-page example apps that implement an accessible solution to improv
 This repo provides working examples of single-page applications (SPA's) with improved accessibility.
 
 ## The Accessibility Problem with SPA's
-
+ 
 SPA's seek to improve overall performance and efficiency by dynamically loading only the content and UI that needs to change vs. requesting and reloading many of the same assets with each page load.
 
 One basic issue concerning SPA accessibilty is that assistive technology (screen readers in this case) are not aware of dynamically loaded content. Screen readers are tuned to document refreshes. It is up to us as UX designers and developers to ensure that pertinent, dynamic content or UI changes are brought to the attention of users.
